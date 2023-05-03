@@ -1,0 +1,25 @@
+Finish Explore Page
+	- scalable
+	- clean look
+	- fix design
+
+Finish web developer design roadmap
+	- spotify playlist favourites website
+	- some project
+	- some project
+	- some project
+
+Finish Javascript roadmap
+	- some project
+	- some project
+	- some project
+	- some project
+
+Finish data analysis for python roadmap
+	- some project
+	- some project  
+	- some project
+	- some project
+
+
+Refactor Batman website

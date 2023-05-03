@@ -1,0 +1,95 @@
+*, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+
+
+
+.border{
+    display: flex;
+    justify-content: center;
+    border-style: outset;
+    border-color: black;
+    box-shadow: 0px 0px 5px black;
+    margin: 2rem auto;
+    width: 50%;
+}
+.border-2{
+    display: flex;
+    justify-content: center;
+    border-style: outset;
+    border-color: black;
+    box-shadow: 0px 0px 5px black;
+    width: 50%;
+    height: 100%;
+    margin: 2rem auto;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    
+}
+
+li{
+    display: inline-flex;
+    padding: 0 25px;
+}
+
+li a{
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+}
+
+.border > p{
+    font-size: 60px;
+    font-family: "Mulish";
+    padding: 3rem;
+    text-align: center;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    padding: 10rem;
+    gap: 6px;
+    font-family: "Mulish"
+}
+
+.dot{
+   color: red; 
+}
+
+
+
+@media only screen and (min-width: 375px){
+    
+    .border-2{
+        width: 100%;
+    }
+    .border{
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 1027px ) {
+    
+    .border-2{
+        width: 50%;
+    }
+    .border{
+        width: 50%;
+    }
+
+}
