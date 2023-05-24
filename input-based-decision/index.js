@@ -13,7 +13,6 @@ const messageContainer = document.getElementById("messageContainer");
 //function to check the similarity of the guess to the target word
 
 function checkGuess(guess) {
-    e.preventDefault();
     if(guess === correctWord){
     message = "Congratulations! Word guessed correctly!"
     }else{
@@ -38,7 +37,8 @@ function checkGuess(guess) {
 }
 
 //function to handle the guess submission
-function guessWord(){
+document.getElementById("guessWord").onclick = function(e){
+    e.preventDefault();
     guessWord = document.getElementById("guessInput").value;
     checkGuess(guessWord);
     messageContainer.textContent = message;
