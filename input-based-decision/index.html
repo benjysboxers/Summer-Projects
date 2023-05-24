@@ -7,10 +7,12 @@
     <title>Input based decision</title>
 </head>
 <body>
-    <p style="font-size: 20px;">Input based decision</p>
-    <input type="text" id="decisionguess">
-    <button id="checkGuess">Check</button>
-    <p id="message"></p>
+  <h1>Guess the Correct Word</h1>
+    <label for="guessInput">Enter your guess:</label>
+    <input type="text" id="guessInput">
+    <button onclick="guessWord()">Submit</button>
+
+    <div id="messageContainer"></div>
     <script src="./index.js"></script>
 </body>
 </html>
